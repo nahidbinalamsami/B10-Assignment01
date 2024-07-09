@@ -1,44 +1,96 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 .poppins-thin {
-    font-family: "Poppins"
-  }
+  font-family: "Poppins";
+}
 /* Universal Selectors  */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 /* Banner Section */
-.banner-container{
-    width: 1440px;
-    height: 650px;
-    border: 2px solid red;
-    margin: 0 auto;
-    background: url(../assets/Hero-bg.png);
-    margin-top: 20px;
+.banner-container {
+  width: 1440px;
+  height: 650px;
+  border: 2px solid red;
+  margin: 0 auto;
+  background: url(../assets/Hero-bg.png);
+  margin-top: 20px;
 }
-.banner-conatiner-details{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.banner-conatiner-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.banner-conatiner-details-img{
-    margin: 50px 0px 20px 0px;
+.banner-conatiner-details-img {
+  margin: 50px 0px 20px 0px;
 }
-.banner-conatiner-details-heading{
-    font-size: xx-large;
-    text-align: center;
-    padding: 20px;
+.banner-conatiner-details-heading {
+  font-size: xx-large;
+  text-align: center;
+  padding: 20px;
 }
-.banner-conatiner-details-title{
-    font-size: medium;
-    text-align: center;
-    padding: 10px;
+.banner-conatiner-details-title {
+  font-size: medium;
+  text-align: center;
+  padding: 10px;
 }
-.banner-conatiner-details-button{
-    background: rgb(13, 19, 33);
-    color: white;
-    padding: 10px;
-    border-radius: 8px;
+.banner-conatiner-details-button {
+  background: rgb(13, 19, 33);
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
 }
+/* Why Development Section */
+.development-section {
+  width: 1140px;
+  height: 1390px;
+  border: 2px solid red;
+  margin: 0 auto;
+  margin-top: 70px;
+  background: rgba(13, 19, 33, 0.02);
+}
+.development-section-title {
+  text-align: center;
+  margin-top: 20px;
+}
+.development-section-title-text {
+  font-size: xx-large;
+  margin-top: 20px;
+  padding: 10px;
+}
+.development-section-title-discribe {
+  font-size: medium;
+  color: rgb(13, 19, 33);
+  padding: 10px;
+}
+.development-parents {
+}
+.development-first-col {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+    
+  );
+  margin-top: 20px;
+}
+.development-first-col-h3{
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.development-first-col-p{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.development-first-col-link{
+    text-decoration-line: none;
+    color: rgb(13, 19, 33);
+    border: 1px solid rgb(13, 19, 33);
+    padding: 5px;  
+    
+}
+
