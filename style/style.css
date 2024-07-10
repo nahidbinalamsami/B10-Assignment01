@@ -13,7 +13,7 @@
 .banner-container {
   width: 1440px;
   height: 650px;
-  border: 2px solid red;
+
   margin: 0 auto;
   background: url(../assets/Hero-bg.png);
   margin-top: 20px;
@@ -47,7 +47,7 @@
 .development-section {
   width: 1140px;
   height: 1250px;
-  border: 2px solid red;
+
   margin: 0 auto;
   margin-top: 70px;
   background: rgba(13, 19, 33, 0.02);
@@ -75,158 +75,140 @@
     90deg,
     rgb(255, 255, 255),
     rgba(255, 255, 255, 0) 100%
-    
   );
   margin-top: 20px;
 }
-.development-first-col-h3{
-    margin-top: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.development-first-col-h3 {
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-.development-first-col-p{
-    line-height: 25px;
-    margin-bottom: 20px;
+.development-first-col-p {
+  line-height: 25px;
+  margin-bottom: 20px;
 }
-.development-first-col-link{
-    text-decoration-line: none;
-    color: rgb(13, 19, 33);
-    border: 1px solid rgb(13, 19, 33);
-    padding: 5px;  
-    
+.development-first-col-link {
+  text-decoration-line: none;
+  color: rgb(13, 19, 33);
+  border: 1px solid rgb(13, 19, 33);
+  padding: 5px;
 }
-.margin{
+.margin {
   margin-top: 100px;
 }
 
 /* my inspiration section */
-.inspiration{
+.inspiration {
   text-align: center;
 }
-.inspiration h3{
+.inspiration h3 {
   font-size: xx-large;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.inspiration-vedio{
+.inspiration-vedio {
   width: 1140px;
-height: 500px;
-border: 1px solid rgba(13, 19, 33, 0.2);
-margin: 0 auto;
-display: flex;
-justify-content: center;
-margin-top: 30px;
-border-radius: 16px;
+  height: 500px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  border-radius: 16px;
 }
-.vedio{
+.vedio {
   border-radius: 16px;
 }
 /* my current target */
 
-.my-current-target{
- text-align: center;
- margin-top: 50px;
+.my-current-target {
+  text-align: center;
+  margin-top: 50px;
 }
-.my-current-target h3{
+.my-current-target h3 {
   font-size: x-large;
   padding-bottom: 10px;
 }
-.my-current-target p{
+.my-current-target p {
   font-size: medium;
 }
-.my-section{
+.my-section {
   width: 1140px;
   height: 350px;
-  border: 2px solid red;
+
   margin: 0 auto;
   display: flex;
   justify-content: center;
   gap: 15px;
-  
-
 }
-.first-section{
+.first-section {
   margin-top: 20px;
   padding-left: 10px;
   padding-top: 20px;
   background: rgba(255, 76, 30, 0.05);
   border-radius: 16px;
-  
 }
 
-.first-section h3{
+.first-section h3 {
   font-size: xx-large;
   padding-bottom: 10px;
   padding-top: 10px;
 }
-.first-section p{
+.first-section p {
   line-height: 30px;
   padding-bottom: 50px;
   color: rgb(13, 19, 33);
 }
-.first-section a{
+.first-section a {
   color: black;
   padding-left: 5px;
-  
 }
 
-.second-section{
+.second-section {
   margin-top: 20px;
   padding-left: 10px;
   padding-top: 20px;
   background: rgba(0, 76, 232, 0.05);
   border-radius: 16px;
 }
-.second-section h3{
+.second-section h3 {
   font-size: xx-large;
   padding-bottom: 10px;
   padding-top: 10px;
 }
-.second-section p{
+.second-section p {
   line-height: 30px;
   padding-bottom: 50px;
   color: rgb(13, 19, 33);
 }
-.second-section a{
+.second-section a {
   color: black;
   padding-left: 5px;
 }
-.third-section{
+.third-section {
   margin-top: 20px;
   padding-left: 10px;
   padding-top: 20px;
   background: rgba(255, 223, 0, 0.05);
   border-radius: 16px;
 }
-.third-section h3{
+.third-section h3 {
   font-size: xx-large;
   padding-bottom: 10px;
   padding-top: 10px;
 }
-.third-section p{
+.third-section p {
   line-height: 30px;
   padding-bottom: 50px;
   color: rgb(13, 19, 33);
 }
-.third-section a{
+.third-section a {
   color: black;
   padding-left: 5px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* I need support section */
-.i-need-support{
+.i-need-support {
   width: 1140px;
   height: 315px;
   background-image: url(../assets/handshake.jpg);
@@ -234,66 +216,58 @@ border-radius: 16px;
   margin: 0 auto;
   margin-top: 50px;
   border-radius: 10px;
-  
 }
-.i-need-support-text{
-  
+.i-need-support-text {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 50px;
-  
 }
 
-.i-need-support-text h3{
+.i-need-support-text h3 {
   font-size: xx-large;
   color: rgb(255, 255, 255);
-
 }
-.i-need-support-text p{
+.i-need-support-text p {
   color: rgb(255, 255, 255);
   padding-top: 10px;
 }
-.support-button-section{
+.support-button-section {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 30px;
-  
-  
 }
-.email{
+.email {
   /* padding: 19px 20px 19px 20px; */
- margin-right: 30px;
- padding: 20px 15px 20px 15px;
- background: rgb(255, 255, 255);
- border-radius: 8px;
- 
+  margin-right: 30px;
+  padding: 20px 15px 20px 15px;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
 }
-.button{
+.button {
   /* padding: 19px 20px 19px 20px; */
   color: black;
   padding: 10px 15px 10px 15px;
   border-radius: 8px;
 }
 /* footer Section */
-.footer-section{
+.footer-section {
   width: 1440px;
-height: 100px;
-border: 2px solid red;
-margin: 0 auto;
-background: rgba(13, 19, 33, 0.03);
-border-radius: 16px;
-display: flex;
-justify-content: space-between;
-margin-top: 50px;
-
+  height: 100px;
+  border: 2px solid red;
+  margin: 0 auto;
+  background: rgba(13, 19, 33, 0.03);
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
 }
-.footer-section h3{
+.footer-section h3 {
   padding-top: 30px;
   padding-left: 30px;
 }
-.footer-section img{
+.footer-section img {
   padding-top: 30px;
   padding-right: 30px;
 }
