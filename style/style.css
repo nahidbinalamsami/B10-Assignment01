@@ -121,6 +121,110 @@ border-radius: 16px;
 .vedio{
   border-radius: 16px;
 }
+/* my current target */
+
+.my-current-target{
+ text-align: center;
+ margin-top: 50px;
+}
+.my-current-target h3{
+  font-size: x-large;
+  padding-bottom: 10px;
+}
+.my-current-target p{
+  font-size: medium;
+}
+.my-section{
+  width: 1140px;
+  height: 350px;
+  border: 2px solid red;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  
+
+}
+.first-section{
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-top: 20px;
+  background: rgba(255, 76, 30, 0.05);
+  border-radius: 16px;
+  
+}
+
+.first-section h3{
+  font-size: xx-large;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.first-section p{
+  line-height: 30px;
+  padding-bottom: 50px;
+  color: rgb(13, 19, 33);
+}
+.first-section a{
+  color: black;
+  padding-left: 5px;
+  
+}
+
+.second-section{
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-top: 20px;
+  background: rgba(0, 76, 232, 0.05);
+  border-radius: 16px;
+}
+.second-section h3{
+  font-size: xx-large;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.second-section p{
+  line-height: 30px;
+  padding-bottom: 50px;
+  color: rgb(13, 19, 33);
+}
+.second-section a{
+  color: black;
+  padding-left: 5px;
+}
+.third-section{
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-top: 20px;
+  background: rgba(255, 223, 0, 0.05);
+  border-radius: 16px;
+}
+.third-section h3{
+  font-size: xx-large;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.third-section p{
+  line-height: 30px;
+  padding-bottom: 50px;
+  color: rgb(13, 19, 33);
+}
+.third-section a{
+  color: black;
+  padding-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* I need support section */
 .i-need-support{
   width: 1140px;
